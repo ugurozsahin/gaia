@@ -2,7 +2,7 @@
     "id": "app", 
     "container": {
       "docker": {
-        "image": "google/nodejs-hello:latest",
+        "image": "192.168.99.100:5000/gaia/nodejs_app:latest",
         "network": "BRIDGE",
         "portMappings": [
           {"containerPort": 8000, "servicePort": 8000}
